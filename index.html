@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>学信档案</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 15px;
+            background-color: #f0f0f0;
+            border-bottom: 1px solid #ddd;
+        }
+        .header .title {
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .header .close-btn {
+            font-size: 18px;
+            cursor: pointer;
+        }
+        .content {
+            padding: 10px 15px;
+        }
+        .banner {
+            background-color: #6b9dfa;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+        .info-card {
+            background-color: #e1f7d5;
+            padding: 15px;
+            border-radius: 8px;
+        }
+        .info-card img {
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+        }
+        .info-card .info-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+        .info-card .info-header div {
+            margin-left: 10px;
+        }
+        .info-card .info-details {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .info-card .info-details li {
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="close-btn">×</div>
+        <div class="title">学信档案</div>
+        <div></div>
+    </div>
+    <div class="content">
+        <div class="banner">
+            <img src="banner-image-url" alt="Banner Image">
+        </div>
+        <div class="info-card">
+            <div class="info-header">
+                <img src="byl.png" alt="User Photo">
+                <div>
+                    <div><strong>博弈论</strong></div>
+                    <div>男, 2003年</div>
+                    <div>合肥工业大学</div>
+                    <div>软件工程 | 普通全日制</div>
+                </div>
+            </div>
+            <ul class="info-details">
+                <li>民族: 汉族</li>
+                <li>证件号码: 无一物啊啊，厅堂忘了忘了冰冰</li>
+                <li>学制: 4年</li>
+                <li>学历类别: 普通</li>
+                <li>分院: 计算机科学与工程学院</li>
+                <li>班级: 2021软件工程02班</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
